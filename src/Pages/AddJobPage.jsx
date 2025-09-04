@@ -5,7 +5,7 @@ import { toast } from 'react-toastify'
 import logo from '../../public/Pairr.svg'
 
 const AddJobPage = ({ addJobSubmit }) => {
-    const [fullName, setfullName] = useState('');
+    const [fullName, setFullName] = useState('');
     const [contactEmail, setContactEmail] = useState('')
     const [contactPhone, setContactPhone] = useState('')
     const [gender, setGender] = useState('Male')
