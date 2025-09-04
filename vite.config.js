@@ -9,7 +9,7 @@ export default defineConfig({
       port: 3001,  // your frontend port
       proxy: {
         '/api': {
-          target: 'https://pair-up-z43e.onrender.com/api/jobs', // 👈 backend port
+          target: 'https://pair-up-z43e.onrender.com', // 👈 backend port
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, '/api') // optional
         }

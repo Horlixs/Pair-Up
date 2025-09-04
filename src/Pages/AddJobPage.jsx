@@ -8,8 +8,8 @@ const AddJobPage = ({ addJobSubmit }) => {
     const [contactEmail, setContactEmail] = useState('')
     const [contactPhone, setContactPhone] = useState('')
     const [gender, setGender] = useState('Male')
-    const [status, setStatus] = useState('Yes, I only need a roommate')
-    const [school, setSchool] = useState('University of Ilorin(PS)')
+    const [status, setStatus] = useState('Yes')
+    const [school, setSchool] = useState('University of Ilorin (PS)')
     const [description, setDescription] = useState('')
 
     const navigate = useNavigate()
@@ -180,7 +180,7 @@ const AddJobPage = ({ addJobSubmit }) => {
 
             <div>
               <button
-                className="bg-[#e9b82d] hover:bg-[#151b23] hover:text-[#e9b82d] hover:border-[#e9b82d] hover:shadow- text-black font-bold py-3 text-lg px-8 border rounded-full w-full focus:outline-none focus:shadow-outline"
+                className="bg-[#e9b82d] hover:bg-[#151b23] hover:text-[#e9b82d] hover:border-[#e9b82d] text-black font-bold py-3 text-lg px-8 border rounded-full w-full focus:outline-none focus:shadow-outline"
                 type="submit"
               >
                 Submit
