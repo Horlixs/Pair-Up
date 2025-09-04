@@ -8,7 +8,7 @@ const AddJobPage = ({ addJobSubmit }) => {
     const [contactEmail, setContactEmail] = useState('')
     const [contactPhone, setContactPhone] = useState('')
     const [gender, setGender] = useState('Male')
-    const [status, setStatus] = useState('Yes')
+    const [status, setStatus] = useState('Yes, I only need a roommate')
     const [school, setSchool] = useState('University of Ilorin (PS)')
     const [description, setDescription] = useState('')
 
