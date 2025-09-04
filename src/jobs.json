@@ -1,0 +1,94 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "fullName": "Senior React.js Developer",
+      "contactEmail": "contact@teksolutions.com",
+      "contactPhone": "555-555-5555",
+      "gender": "Full-Time",
+      "location": "Boston, MA",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
+      "school": "$70K - $80K"
+    },
+    {
+      "id": "4d2a",
+      "fullName": "Daud Olamilekan",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "555-555-5555",
+      "gender": "",
+      "status": "University of Ilorin",
+      "school": "",
+      "description": "Nonwmweujkwaujduasl"
+    },
+    {
+      "id": "bedb",
+      "fullName": "Daud Olamilekan",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "555-555-5555",
+      "gender": "Male",
+      "status": "Yes, I only need a roommate",
+      "school": "University of Ilorin(PS)",
+      "description": "ninnsdosdid"
+    },
+    {
+      "id": "370e",
+      "fullName": "gahdkeooe",
+      "contactEmail": "hskkskk@gmail.com",
+      "contactPhone": "8158541980",
+      "gender": "Female",
+      "status": "No",
+      "school": "Kwara State University",
+      "description": "I am a man"
+    },
+    {
+      "id": "4baa",
+      "fullName": "Daud Olamilekan",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "555-555-5555",
+      "gender": "",
+      "status": "",
+      "school": "",
+      "description": "I am a man"
+    },
+    {
+      "id": "6440",
+      "fullName": "Daud Olamilekan",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "555-555-5555",
+      "gender": "Female",
+      "status": "No",
+      "school": "Kwara State University",
+      "description": "I am a boy"
+    },
+    {
+      "id": "f5b9",
+      "fullName": "Daud Olamilekan",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "Hello",
+      "gender": "",
+      "status": "",
+      "school": "",
+      "description": "I am a boy"
+    },
+    {
+      "id": "1520",
+      "fullName": "Daud Olamilekan",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "Hello",
+      "gender": "",
+      "status": "",
+      "school": "",
+      "description": "I am a man"
+    },
+    {
+      "id": "f5f1",
+      "fullName": "Daud Olamilekan",
+      "contactEmail": "fuligarbage@gmail.com",
+      "contactPhone": "8158541980",
+      "gender": "",
+      "status": "",
+      "school": "",
+      "description": "I am a man"
+    }
+  ]
+}
