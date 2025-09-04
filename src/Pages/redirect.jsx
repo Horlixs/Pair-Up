@@ -11,7 +11,7 @@ const Redirect = () => {
         <p className='text-white text-center'>Thank you for Joining our waitlist, Please do well to join our WhatsApp group below to stay tuned.
         </p>
         <Link
-                to={`https://wa.me/8158541980`}
+                to={`https://chat.whatsapp.com/H7FqnrpKOzYHzbVmsZMpGu`}
                 className="bg-[#e9b82d] block text-center mt-10 hover:bg-[#151b23] hover:text-[#e9b82d] hover:border-[#e9b82d] hover:shadow-[#e9b82d] text-black font-bold py-3 text-lg px-8 border rounded-full w-full focus:outline-none focus:shadow-outline"
                 type="submit"
               >
