@@ -153,8 +153,8 @@ const AddJobPage = ({ addJobSubmit }) => {
     value={status}
     onChange={(e) => setStatus(e.target.value)}
   >
-    <option value="Yes">Yes, I only need a roommate</option>
-    <option value="No">No, I'm seeking a hostel and a roommate</option>
+    <option value="Yes, I only need a roommate">Yes, I only need a roommate</option>
+    <option value="No, I'm seeking a hostel and a roommate">No, I'm seeking a hostel and a roommate</option>
   </select>
 </div>
 
@@ -173,7 +173,7 @@ const AddJobPage = ({ addJobSubmit }) => {
     value={school}
     onChange={(e) => setSchool(e.target.value)}
   >
-    <option value="University of Ilorin (PS)">University of Ilorin(PS)</option>
+    <option value="University of Ilorin (PS)">University of Ilorin (PS)</option>
     <option value="University of Ilorin (COHS)">University of Ilorin(COHS)</option>
     <option value="Kwara State University">Kwara State University</option>
     <option value="Kwara State Polytechnic">Kwara State Polytechnic</option>
