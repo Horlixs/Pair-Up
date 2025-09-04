@@ -1,14 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../public/logo.svg' // make sure your logo is in this path
 
 const HomePage = () => {
   return (
     <section
-      className="relative flex items-center justify-center min-h-screen bg-black bg-cover bg-center"
+      className="relative flex flex-col items-center justify-center min-h-screen bg-black bg-cover bg-center"
       style={{ backgroundImage: "url('/image/hero-bg.jpeg')" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/90"></div>
+
+      {/* Logo */}
+      <div className="relative z-10 mb-8">
+        <img src={logo} alt="Pair Up Logo" className="w-32 sm:w-40 md:w-48 mx-auto" />
+      </div>
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 text-center lg:text-center">
