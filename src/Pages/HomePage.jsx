@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../public/logo.svg' // make sure your logo is in this path
+import logo from '../../public/Pair.svg' // make sure your logo is in this path
 
 const HomePage = () => {
   return (

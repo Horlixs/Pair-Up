@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../public/Pairr.svg'
 
 const Redirect = () => {
   return (
@@ -8,6 +9,8 @@ const Redirect = () => {
       <div
         className="bg-[#0d1117] px-6 py-8 mb-4 shadow-md rounded-md m-4 md:m-0"
       >
+        <img src={logo} alt="Pair Up Logo" className="w-32 sm:w-40 md:w-48 mx-auto" />
+
         <p className='text-white text-center'>Thank you for Joining our waitlist, Please do well to join our WhatsApp group below to stay tuned.
         </p>
         <Link
