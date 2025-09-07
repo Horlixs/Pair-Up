@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import logo from '../../public/Pairr.svg'
+import logo from '/Logoo.svg'
 
 const AddJobPage = ({ addJobSubmit }) => {
     const [fullName, setFullName] = useState('');
@@ -50,7 +50,7 @@ const AddJobPage = ({ addJobSubmit }) => {
         >
           <form onSubmit={submitForm}>
               <div className="relative z-10 mb-8">
-                <img src={logo} alt="Pair Up Logo" className="w-32 sm:w-40 md:w-48 mx-auto" />
+                <img src={logo} alt="Pair Up Logo" className="w-40 sm:w-60 md:w-70 mx-auto" />
               </div>
             <h2 className="text-3xl text-[#e9b82d] text-center font-semibold mb-6">Register</h2>
 

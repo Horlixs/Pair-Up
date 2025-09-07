@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../public/Pair.svg' // make sure your logo is in this path
+import logo from '/Pair.svg' // make sure your logo is in this path
 
 const HomePage = () => {
   return (
@@ -13,7 +13,7 @@ const HomePage = () => {
 
       {/* Logo */}
       <div className="relative z-10 mb-8">
-        <img src={logo} alt="Pair Up Logo" className="w-32 sm:w-40 md:w-48 mx-auto" />
+        <img src={logo} alt="Pair Up Logo" className="w-50 sm:w-70 md:w-70 mx-auto" />
       </div>
 
       {/* Content */}
