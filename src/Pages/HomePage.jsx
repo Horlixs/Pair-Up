@@ -31,7 +31,7 @@ const HomePage = () => {
         <div className="mt-8 flex justify-center lg:justify-start">
           <Link
             to="/register"
-            className="bg-[#e9b82d] m-auto text-black py-3 px-8 rounded-full text-base sm:text-lg border hover:bg-[#151b23] hover:text-[#e9b82d] hover:border-[#e9b82d] hover:shadow-lg transition-all duration-300"
+            className="bg-[#e9b82d] font-inter m-auto text-black py-3 px-8 rounded-full text-base sm:text-lg border hover:bg-[#151b23] hover:text-[#e9b82d] hover:border-[#e9b82d] hover:shadow-lg transition-all duration-300"
           >
             Click here to Register
           </Link>
